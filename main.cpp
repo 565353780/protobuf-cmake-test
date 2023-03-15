@@ -12,6 +12,7 @@ int main(int argc, char const *argv[])
 
   Timestamp ts;
   const int byte_size_long = ts.ByteSizeLong();
+  cout << "\t Timestamp::ByteSizeLong() = " << byte_size_long << std::endl;
   cout << "[TEST]google::protobuf::Timestamp passed!\n";
 
   return 0;
